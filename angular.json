@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angulaalura"
+    }
+  },
+  "defaultProject": "angulaalura",
+  "cli": {
+    "analytics": false
+  }
 }
