@@ -13,8 +13,5 @@ export class AppComponent {
 
   }
 
-// tslint:disable-next-line: typedef
-tranferir($event){
- this.service.adicionar($event);
-  }
+
 }

@@ -1,4 +1,7 @@
-<app-nova-transferencia (aoTransferir)= "tranferir($event)"></app-nova-transferencia>
-
-<app-extrato> </app-extrato>
-
+<header>
+  <a routerLink="extrato">Home</a>
+  <a routerLink="nova-transferencia" routerLinkActive="ativo">Nova Transferência</a>
+</header>
+<main>
+<router-outlet></router-outlet>
+</main>
